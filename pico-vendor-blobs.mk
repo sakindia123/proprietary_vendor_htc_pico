@@ -27,21 +27,29 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pico/proprietary/bin/awb_camera:system/bin/awb_camera \
     vendor/htc/pico/proprietary/bin/bma150_usr:system/bin/bma150_usr \
     vendor/htc/pico/proprietary/bin/btld:system/bin/btld \
+    vendor/htc/pico/proprietary/bin/cam_ins_spmo:system/bin/cam_ins_spmo \
+    vendor/htc/pico/proprietary/bin/charging:system/bin/charging \
     vendor/htc/pico/proprietary/bin/htc_ebdlogd:system/bin/htc_ebdlogd \
-    vendor/htc/pico/proprietary/bin/ip:system/bin/ip \
     vendor/htc/pico/proprietary/bin/ipd:system/bin/ipd \
     vendor/htc/pico/proprietary/bin/logcat2:system/bin/logcat2 \
     vendor/htc/pico/proprietary/bin/lsc_camera:system/bin/lsc_camera \
     vendor/htc/pico/proprietary/bin/netsharing:system/bin/netsharing \
-    vendor/htc/pico/proprietary/bin/rild:system/bin/rild \
     vendor/htc/pico/proprietary/bin/ser2net:system/bin/ser2net \
+    vendor/htc/pico/proprietary/bin/snd8k:system/bin/snd \
     vendor/htc/pico/proprietary/bin/snd8k:system/bin/snd8k \
     vendor/htc/pico/proprietary/bin/tc:system/bin/tc \
-    vendor/htc/pico/proprietary/bin/wireless_modem:system/xbin/wireless_modem 
+    vendor/htc/pico/proprietary/bin/wireless_modem:system/xbin/wireless_modem \
 
 # Prebuilt Libraries
 PRODUCT_COPY_FILES += \
     vendor/htc/pico/proprietary/lib/hw/gps.pico.so:system/lib/hw/gps.pico.so \
+    vendor/htc/pico/proprietary/lib/hw/sensors.pico.so:system/lib/hw/sensors.pico.so \
+    vendor/htc/pico/proprietary/lib/hw/lights.msm7k.so:system/lib/hw/lights.msm7k.so \
+    vendor/htc/pico/proprietary/lib/hw/eglsubAndroid.so:system/lib/hw/eglsubAndroid.so \
+    vendor/htc/pico/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
+    vendor/htc/pico/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
+    vendor/htc/pico/proprietary/lib/libwebkitaccel.so:system/lib/libwebkitaccel.so \
+    vendor/htc/pico/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/htc/pico/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/htc/pico/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/pico/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
@@ -57,7 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pico/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/htc/pico/proprietary/lib/libchromatix_mt9t013_default_video.so:system/lib/libchromatix_mt9t013_default_video.so \
     vendor/htc/pico/proprietary/lib/libchromatix_mt9t013_preview.so:system/lib/libchromatix_mt9t013_preview.so \
-    vendor/htc/pico/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/htc/pico/proprietary/lib/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
     vendor/htc/pico/proprietary/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
     vendor/htc/pico/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
@@ -65,7 +72,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pico/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
     vendor/htc/pico/proprietary/lib/libwsp.so:system/lib/libwsp.so \
     vendor/htc/pico/proprietary/lib/libwsp_jni.so:system/lib/libwsp_jni.so \
-    vendor/htc/pico/proprietary/lib/libreference-cdma-sms.so:system/lib/libreference-cdma-sms.so 
+    vendor/htc/pico/proprietary/lib/libreference-cdma-sms.so:system/lib/libreference-cdma-sms.so \
+#   vendor/htc/pico/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
+
 
 # Misc.
 PRODUCT_COPY_FILES += \    
@@ -74,4 +83,6 @@ PRODUCT_COPY_FILES += \
    vendor/htc/pico/proprietary/etc/AudioPara4.csv:system/etc/AudioPara4.csv \
    vendor/htc/pico/proprietary/etc/AudioPara4_WB.csv:system/etc/AudioPara4_WB.csv \
    vendor/htc/pico/proprietary/etc/AudioPreProcess.csv:system/etc/AudioPreProcess.csv 
+   vendor/htc/pico/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
+   vendor/htc/pico/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
 
