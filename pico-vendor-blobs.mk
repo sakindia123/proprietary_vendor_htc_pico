@@ -29,16 +29,20 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pico/proprietary/bin/btld:system/bin/btld \
     vendor/htc/pico/proprietary/bin/cam_ins_spmo:system/bin/cam_ins_spmo \
     vendor/htc/pico/proprietary/bin/charging:system/bin/charging \
+    vendor/htc/pico/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/htc/pico/proprietary/bin/htc_ebdlogd:system/bin/htc_ebdlogd \
     vendor/htc/pico/proprietary/bin/ipd:system/bin/ipd \
     vendor/htc/pico/proprietary/bin/logcat2:system/bin/logcat2 \
     vendor/htc/pico/proprietary/bin/lsc_camera:system/bin/lsc_camera \
+    vendor/htc/pico/proprietary/bin/mm-qcamera-test:system/bin/mm-qcamera-test \
+    vendor/htc/pico/proprietary/bin/mm-qcamera-testsuite-client-awb:system/bin/mm-qcamera-testsuite-client-awb \
     vendor/htc/pico/proprietary/bin/netsharing:system/bin/netsharing \
     vendor/htc/pico/proprietary/bin/ser2net:system/bin/ser2net \
-    vendor/htc/pico/proprietary/bin/snd8k:system/bin/snd \
+    vendor/htc/pico/proprietary/bin/snd:system/bin/snd \
     vendor/htc/pico/proprietary/bin/snd8k:system/bin/snd8k \
     vendor/htc/pico/proprietary/bin/tc:system/bin/tc \
     vendor/htc/pico/proprietary/bin/wireless_modem:system/xbin/wireless_modem \
+    vendor/htc/pico/proprietary/bin/zchgd:system/bin/zchgd \
 
 # Prebuilt Libraries
 PRODUCT_COPY_FILES += \
@@ -56,6 +60,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pico/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/pico/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
     vendor/htc/pico/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+    vendor/htc/pico/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
+    vendor/htc/pico/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/htc/pico/proprietary/lib/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
     vendor/htc/pico/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
     vendor/htc/pico/proprietary/lib/libhtc_ril_switch.so:system/lib/libhtc_ril_switch.so \
@@ -72,6 +78,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pico/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
     vendor/htc/pico/proprietary/lib/libwsp.so:system/lib/libwsp.so \
     vendor/htc/pico/proprietary/lib/libwsp_jni.so:system/lib/libwsp_jni.so \
+    vendor/htc/pico/proprietary/lib/libloc_api-rpc.so:system/lib/libloc_api-rpc.so \
     vendor/htc/pico/proprietary/lib/libreference-cdma-sms.so:system/lib/libreference-cdma-sms.so \
 #   vendor/htc/pico/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
 
